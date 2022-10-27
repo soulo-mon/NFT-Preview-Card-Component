@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![my_screenshot](My Screenshot.png)
+![my_screenshot](https://github.com/soulo-mon/NFT-Preview-Card-Component/blob/c71f389b6449932b0200d81c388a7267118f80a0/My%20Screenshot.png)
 
 - Solution URL: [Here](https://github.com/soulo-mon/NFT-Preview-Card-Component)
 
