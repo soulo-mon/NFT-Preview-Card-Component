@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+main{
+    margin: auto;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 50%, 16%);
+    padding: 50px;
+    display: inline-block;
+
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.days-eth{
+    color: hsl(178, 100%, 50%);
+    padding-left: 5px;
+}
+
+.days-clock{
+    color: hsl(215, 51%, 70%);
+    padding-left: 5px;
+}
+
+.card{
+    background-color:  hsl(215, 32%, 27%);
+    width: min(100%, 375px);
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 0px 0px 0 black, 0 0px 20px 20px hsl(216, 56%, 9%)
+}
+
+.card figure{
+    display: flex;
+    flex-flow: row wrap; 
+    padding-top: 20px;
+}
+
+h3{
+    padding: 15px 0;
+    font-weight: 600;
+}
+
+.card p{
+    padding: 10px 0;
+    color: hsl(215, 51%, 70%)
+}
+
+
+figure .img{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+figcaption{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+figcaption span{
+    color: hsl(215, 51%, 70%) ;
+}
+
+span{
+    color: white;
+    padding-left: 5px;
+}
+
+footer{
+    padding: 12px;
+    font-size: 13px;
+    color: hsl(215, 51%, 70%) ;
+    text-align: center;
+}
+
+a, a:visited{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:focus, a:active, a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* MEDIA  SCREEN */
+
+@media screen and (min-width: 375px) {
+
+    body{
+        padding: 50px 10px;
+    }
+    figure .img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    figcaption{
+        padding-left: 15px;
+    }
+
+    footer{
+        font-size: 10px;
+        padding: 10px 50px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1440px){
+    
+    .card{
+        width: min(cal(33% - 1rem), 500px);
+    }
+
+    figure .img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    figcaption{
+        padding-left: 20px;
+    }
+
+    footer{
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    
+}
